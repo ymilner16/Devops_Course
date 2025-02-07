@@ -3,7 +3,7 @@ pipeline {
 	stages {
 		stage('create_file') {
 			steps {
-				touch file
+				sh "touch file"
 			}
 		}
 		stage('echo') {
