@@ -1,12 +1,12 @@
 pipeline {
 	agent any 
 	stages {
-		stage ('create_file') {
+		stage('create_file') {
 			steps {
 				touch file
 			}
 		}
-		stage ('echo') {
+		stage('echo') {
 			steps {
 				echo "Hello from Pipeline!"
 			}
