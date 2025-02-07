@@ -1,5 +1,5 @@
 pipeline {
-agent any {
+	agent any 
 	stages {
 		stage (create_file) {
 			steps {
@@ -12,5 +12,5 @@ agent any {
 			}
 		}
 	}
-	}
+	
 }
