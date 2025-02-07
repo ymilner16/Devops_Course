@@ -8,7 +8,7 @@ pipeline {
 		}
 		stage (echo) {
 			steps {
-				echo "Hello from Pipeline!
+				echo "Hello from Pipeline!"
 			}
 		}
 	}
